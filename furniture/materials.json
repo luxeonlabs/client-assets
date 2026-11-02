@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "materials": [
+    {
+      "name": "wood",
+      "texture": "furniture/textures/wood.png",
+      "color": "#8a5a35",
+      "metalness": 0.05,
+      "roughness": 0.7,
+      "opacity": 1,
+      "repeatX": 1,
+      "repeatY": 1
+    },
+    {
+      "name": "fabric",
+      "texture": "furniture/textures/carpet.png",
+      "color": "#8a5a35",
+      "metalness": 0.05,
+      "roughness": 0.7,
+      "opacity": 1,
+      "repeatX": 1,
+      "repeatY": 1
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "name": "hair-fall",
+  "parts": [
+    {
+      "id": "hair-fall-region",
+      "name": "hair",
+      "tags": ["hair"],
+      "kind": "region",
+      "materialId": "hair",
+      "bevel": 0,
+      "cornerRadius": 0,
+      "cornerAxis": "y",
+      "segments": 24,
+      "width": 0.5,
+      "height": 0.30,
+      "depth": 0.30,
+      "radiusBottom": 0.4,
+      "radiusTop": 0.4,
+      "radius": 0.03,
+      "tube": 0.12,
+      "span": 3.141592653589793,
+      "puff": 0.6,
+      "drop": 0.42,
+      "flare": 0.3,
+      "role": "solid",
+      "faceOps": [],
+      "transform": {
+        "x": 0,
+        "y": -0.08,
+        "z": -0.10,
+        "rx": 0,
+        "ry": 0,
+        "rz": 0,
+        "sx": 1,
+        "sy": 1,
+        "sz": 1
+      },
+      "visible": true,
+      "colour": null,
+      "glow": 0,
+      "states": []
+    }
+  ],
+  "groups": [],
+  "figure": {
+    "slot": "hair",
+    "style": "fall",
+    "bind": "bone",
+    "bone": "Head",
+    "at": [0, 2.03, 0]
+  },
+  "materials": [
+    {
+      "id": "hair",
+      "name": "hair",
+      "color": "#4a3226",
+      "metalness": 0,
+      "roughness": 0.74,
+      "opacity": 1,
+      "map": null,
+      "texture": null,
+      "repeatX": 1,
+      "repeatY": 1
+    }
+  ]
+}

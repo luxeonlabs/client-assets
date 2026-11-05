@@ -9,9 +9,7 @@
         "head",
         "build",
         "frame",
-        "height",
-        "eyes",
-        "mouth"
+        "height"
       ]
     },
     {
@@ -41,7 +39,8 @@
         "accessories",
         "hat",
         "glasses",
-        "earrings"
+        "earrings",
+        "eyes"
       ]
     }
   ],
@@ -649,7 +648,7 @@
       "label": "Eyes",
       "palette": "face",
       "frame": "head",
-      "default": "round:ink",
+      "default": "round:brown",
       "styles": [
         {
           "id": "round",
@@ -674,23 +673,11 @@
       "label": "Mouth",
       "palette": "face",
       "frame": "head",
-      "default": "none",
+      "default": "line:ink",
       "styles": [
         {
-          "id": "none",
-          "label": "None"
-        },
-        {
-          "id": "smile",
-          "label": "Smile"
-        },
-        {
-          "id": "grin",
-          "label": "Grin"
-        },
-        {
-          "id": "flat",
-          "label": "Flat"
+          "id": "line",
+          "label": "Line"
         }
       ]
     },
@@ -703,38 +690,59 @@
       "styles": [
         {
           "id": "short",
-          "label": "Short",
-          "cut": "short"
-        },
-        {
-          "id": "buzz",
-          "label": "Buzz",
-          "cut": "buzz"
+          "label": "Short"
         },
         {
           "id": "quiff",
-          "label": "Quiff",
-          "cut": "quiff"
-        },
-        {
-          "id": "bun",
-          "label": "Bun",
-          "cut": "bun"
+          "label": "Quiff"
         },
         {
           "id": "long",
-          "label": "Long",
-          "cut": "long"
+          "label": "Long"
         },
         {
-          "id": "curly",
-          "label": "Curly",
-          "cut": "curly"
+          "id": "fall",
+          "label": "Fall"
         },
         {
-          "id": "mohawk",
-          "label": "Mohawk",
-          "cut": "mohawk"
+          "id": "scene",
+          "label": "Scene"
+        },
+        {
+          "id": "slick",
+          "label": "Slick back"
+        },
+        {
+          "id": "pony",
+          "label": "Ponytail"
+        },
+        {
+          "id": "afro",
+          "label": "Afro"
+        },
+        {
+          "id": "bob",
+          "label": "Bob"
+        },
+        {
+          "id": "bun",
+          "label": "Bun"
+        },
+        {
+          "id": "spikes",
+          "label": "Spikes"
+        },
+        {
+          "id": "braid",
+          "label": "Braid"
+        },
+        {
+          "id": "shag",
+          "label": "Shag"
+        },
+        {
+          "id": "sweep",
+          "label": "Sweep"
         },
         {
           "id": "none",
@@ -892,50 +900,7 @@
       "styles": [
         {
           "id": "tee",
-          "label": "Short sleeve",
-          "bones": [
-            "Spine",
-            "Spine1",
-            "Spine2",
-            "LeftShoulder",
-            "LeftArm",
-            "RightShoulder",
-            "RightArm"
-          ],
-          "outset": 0.014
-        },
-        {
-          "id": "longsleeve",
-          "label": "Long sleeve",
-          "bones": [
-            "Spine",
-            "Spine1",
-            "Spine2",
-            "LeftShoulder",
-            "LeftArm",
-            "RightShoulder",
-            "RightArm",
-            "LeftForeArm",
-            "RightForeArm"
-          ],
-          "outset": 0.014
-        },
-        {
-          "id": "hoodie",
-          "label": "Hoodie",
-          "bones": [
-            "Spine",
-            "Spine1",
-            "Spine2",
-            "LeftShoulder",
-            "LeftArm",
-            "RightShoulder",
-            "RightArm",
-            "LeftForeArm",
-            "RightForeArm"
-          ],
-          "outset": 0.014,
-          "hood": true
+          "label": "Short sleeve"
         }
       ]
     },
@@ -951,47 +916,8 @@
           "label": "None"
         },
         {
-          "id": "bomber",
-          "label": "Bomber",
-          "bones": [
-            "Spine",
-            "Spine1",
-            "Spine2",
-            "LeftShoulder",
-            "LeftArm",
-            "RightShoulder",
-            "RightArm",
-            "LeftForeArm",
-            "RightForeArm"
-          ],
-          "outset": 0.03
-        },
-        {
-          "id": "vest",
-          "label": "Vest",
-          "bones": [
-            "Spine",
-            "Spine1",
-            "Spine2"
-          ],
-          "outset": 0.03
-        },
-        {
-          "id": "coat",
-          "label": "Coat",
-          "bones": [
-            "Spine",
-            "Spine1",
-            "Spine2",
-            "LeftShoulder",
-            "LeftArm",
-            "RightShoulder",
-            "RightArm",
-            "LeftForeArm",
-            "RightForeArm"
-          ],
-          "outset": 0.03,
-          "skirt": true
+          "id": "hoodie",
+          "label": "Hoodie"
         }
       ]
     },
@@ -1037,29 +963,11 @@
       "label": "Pants",
       "palette": "pants",
       "frame": "full",
-      "default": "jeans:denim",
+      "default": "skinny-jeans:denim",
       "styles": [
         {
-          "id": "jeans",
-          "label": "Jeans",
-          "bones": [
-            "Hips",
-            "LeftUpLeg",
-            "LeftLeg",
-            "RightUpLeg",
-            "RightLeg"
-          ],
-          "outset": 0.014
-        },
-        {
-          "id": "shorts",
-          "label": "Shorts",
-          "bones": [
-            "Hips",
-            "LeftUpLeg",
-            "RightUpLeg"
-          ],
-          "outset": 0.014
+          "id": "skinny-jeans",
+          "label": "Skinny jeans"
         }
       ]
     },
@@ -1089,30 +997,11 @@
       "label": "Shoes",
       "palette": "shoes",
       "frame": "full",
-      "default": "sneakers:white",
+      "default": "none",
       "styles": [
         {
-          "id": "sneakers",
-          "label": "Sneakers",
-          "bones": [
-            "LeftFoot",
-            "LeftToeBase",
-            "RightFoot",
-            "RightToeBase"
-          ],
-          "outset": 0.01
-        },
-        {
-          "id": "boots",
-          "label": "Boots",
-          "bones": [
-            "LeftFoot",
-            "LeftToeBase",
-            "RightFoot",
-            "RightToeBase"
-          ],
-          "outset": 0.01,
-          "bootShaft": true
+          "id": "none",
+          "label": "None"
         }
       ]
     }

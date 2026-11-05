@@ -1,0 +1,314 @@
+{
+  "name": "forma-bed-single",
+  "parts": [
+    {
+      "id": "mvzh1cmq-csnzj",
+      "name": "box",
+      "kind": "box",
+      "materialId": "wood",
+      "bevel": 0.03,
+      "cornerRadius": 0,
+      "cornerAxis": "y",
+      "segments": 24,
+      "width": 1.2691643791954494,
+      "height": 1.1430177928524976,
+      "depth": 0.15177460003872842,
+      "radiusBottom": 0.4,
+      "radiusTop": 0.4,
+      "radius": 0.4,
+      "tube": 0.12,
+      "role": "solid",
+      "faceOps": [],
+      "transform": {
+        "x": 0,
+        "y": 0.5715088844299316,
+        "z": -0.6165203864566451,
+        "rx": 0,
+        "ry": 0,
+        "rz": 0,
+        "sx": 1,
+        "sy": 1,
+        "sz": 1
+      },
+      "visible": true,
+      "states": [],
+      "puff": 0.6
+    },
+    {
+      "id": "mvzh3b73-rv0qz",
+      "name": "box.2",
+      "kind": "box",
+      "materialId": "wood",
+      "bevel": 0.03,
+      "cornerRadius": 0,
+      "cornerAxis": "y",
+      "segments": 24,
+      "width": 1.2691643791954494,
+      "height": 0.8593855647475112,
+      "depth": 0.15177460003872842,
+      "radiusBottom": 0.4,
+      "radiusTop": 0.4,
+      "radius": 0.4,
+      "tube": 0.12,
+      "role": "solid",
+      "faceOps": [],
+      "transform": {
+        "x": 0,
+        "y": 0.4296927750110626,
+        "z": 2.012464258504293,
+        "rx": 0,
+        "ry": 0,
+        "rz": 0,
+        "sx": 1,
+        "sy": 1,
+        "sz": 1
+      },
+      "visible": true,
+      "states": [],
+      "puff": 0.6
+    },
+    {
+      "id": "mvzh4v5p-dq45h",
+      "name": "box.3",
+      "kind": "box",
+      "materialId": "wood",
+      "bevel": 0.03,
+      "cornerRadius": 0,
+      "cornerAxis": "y",
+      "segments": 24,
+      "width": 1.2691643791954494,
+      "height": 0.1411320901508316,
+      "depth": 2.662385018016016,
+      "radiusBottom": 0.4,
+      "radiusTop": 0.4,
+      "radius": 0.4,
+      "tube": 0.12,
+      "role": "solid",
+      "faceOps": [],
+      "transform": {
+        "x": 0,
+        "y": 0.4296927750110626,
+        "z": 0.655168056550191,
+        "rx": 0,
+        "ry": 0,
+        "rz": 0,
+        "sx": 1,
+        "sy": 1,
+        "sz": 1
+      },
+      "visible": true,
+      "states": [],
+      "puff": 0.6
+    },
+    {
+      "id": "mvzh9w1z-cs5iy",
+      "name": "mattress",
+      "kind": "box",
+      "materialId": "fabric",
+      "bevel": 0.03,
+      "cornerRadius": 0,
+      "cornerAxis": "y",
+      "segments": 24,
+      "width": 1.2225428959958373,
+      "height": 0.18579027563098494,
+      "depth": 2.4592983876775714,
+      "radiusBottom": 0.4,
+      "radiusTop": 0.4,
+      "radius": 0.4,
+      "tube": 0.12,
+      "role": "solid",
+      "faceOps": [],
+      "transform": {
+        "x": 0,
+        "y": 0.5954592534038191,
+        "z": 0.6931150184021463,
+        "rx": 0,
+        "ry": 0,
+        "rz": 0,
+        "sx": 1,
+        "sy": 1,
+        "sz": 1
+      },
+      "visible": true,
+      "states": [],
+      "puff": 0.6
+    },
+    {
+      "id": "mvzhertp-10jo0",
+      "name": "blanket",
+      "kind": "box",
+      "materialId": "fabric",
+      "bevel": 0.03,
+      "cornerRadius": 0,
+      "cornerAxis": "y",
+      "segments": 24,
+      "width": 1.4382807055416251,
+      "height": 0.5160967611229216,
+      "depth": 2.205006675460535,
+      "radiusBottom": 0.4,
+      "radiusTop": 0.4,
+      "radius": 0.4,
+      "tube": 0.12,
+      "role": "solid",
+      "faceOps": [
+        {
+          "id": "mvzhgql2-1igmw",
+          "triangles": [
+            244,
+            245
+          ],
+          "scale": 0.87,
+          "offset": 0
+        }
+      ],
+      "transform": {
+        "x": 0,
+        "y": 0.4508129836915009,
+        "z": 0.9479792716419978,
+        "rx": 0,
+        "ry": 0,
+        "rz": 0,
+        "sx": 1,
+        "sy": 1,
+        "sz": 1
+      },
+      "visible": true,
+      "states": [],
+      "puff": 0.6
+    },
+    {
+      "id": "mvzhh98j-umcvq",
+      "name": "box.7",
+      "kind": "box",
+      "materialId": "wood",
+      "bevel": 0.03,
+      "cornerRadius": 0,
+      "cornerAxis": "y",
+      "segments": 24,
+      "width": 1.414826350929591,
+      "height": 0.8016531516022878,
+      "depth": 2.7747546646376433,
+      "radiusBottom": 0.4,
+      "radiusTop": 0.4,
+      "radius": 0.4,
+      "tube": 0.12,
+      "role": "cut",
+      "faceOps": [
+        {
+          "id": "mvzhh98j-fsps9",
+          "triangles": [
+            244,
+            245
+          ],
+          "scale": 0.87,
+          "offset": 0
+        }
+      ],
+      "transform": {
+        "x": 0,
+        "y": 0.2893218691445212,
+        "z": 0.9479792716419978,
+        "rx": 0,
+        "ry": 0,
+        "rz": 0,
+        "sx": 1,
+        "sy": 1,
+        "sz": 1
+      },
+      "visible": true,
+      "states": [],
+      "cutTargets": [
+        "mvzhertp-10jo0"
+      ],
+      "puff": 0.6
+    },
+    {
+      "id": "mvzhchdi-8iyvd",
+      "name": "pillow",
+      "kind": "box",
+      "materialId": "fabric",
+      "bevel": 0.03,
+      "cornerRadius": 0,
+      "cornerAxis": "y",
+      "segments": 24,
+      "width": 1.231170908960303,
+      "height": 0.19824645151810696,
+      "depth": 0.5400279393002049,
+      "radiusBottom": 0.4,
+      "radiusTop": 0.4,
+      "radius": 0.4,
+      "tube": 0.12,
+      "role": "solid",
+      "faceOps": [
+        {
+          "id": "mvzhd8no-4zscg",
+          "triangles": [
+            244,
+            245
+          ],
+          "scale": 0.93,
+          "offset": 0.005
+        }
+      ],
+      "transform": {
+        "x": 0,
+        "y": 0.764406449351956,
+        "z": -0.27524077871579783,
+        "rx": 0.09531401751712563,
+        "ry": 0,
+        "rz": 0,
+        "sx": 1,
+        "sy": 1,
+        "sz": 1
+      },
+      "visible": true,
+      "states": [],
+      "puff": 0.6
+    }
+  ],
+  "groups": [
+    {
+      "id": "mvzh8kt1-77klj",
+      "name": "group",
+      "partIds": [],
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "rx": 0,
+        "ry": 0,
+        "rz": 0,
+        "sx": 1,
+        "sy": 1,
+        "sz": 1
+      },
+      "states": []
+    }
+  ],
+  "materials": [
+    {
+      "id": "wood",
+      "name": "wood",
+      "color": "#8a5a35",
+      "metalness": 0.05,
+      "roughness": 0.7,
+      "opacity": 1,
+      "map": null,
+      "repeatX": 1,
+      "repeatY": 1,
+      "texture": null
+    },
+    {
+      "id": "fabric",
+      "name": "fabric",
+      "color": "#c9c2b4",
+      "metalness": 0,
+      "roughness": 0.9,
+      "opacity": 1,
+      "map": null,
+      "repeatX": 1,
+      "repeatY": 1,
+      "texture": null
+    }
+  ]
+}

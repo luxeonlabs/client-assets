@@ -1,0 +1,242 @@
+{
+  "name": "forma-chair1",
+  "parts": [
+    {
+      "id": "mvykbqgl-hau4e",
+      "name": "box",
+      "kind": "box",
+      "materialId": "wood",
+      "bevel": 0.065,
+      "segments": 24,
+      "width": 0.8,
+      "height": 0.8,
+      "depth": 0.8,
+      "radiusBottom": 0.4,
+      "radiusTop": 0.4,
+      "radius": 0.4,
+      "tube": 0.12,
+      "role": "solid",
+      "faceOps": [],
+      "transform": {
+        "x": 0.4124467940167262,
+        "y": 0.4,
+        "z": 0,
+        "rx": 0,
+        "ry": 0,
+        "rz": 0,
+        "sx": 0.13316182227872858,
+        "sy": 1,
+        "sz": 1
+      },
+      "visible": true
+    },
+    {
+      "id": "mvykcajv-p8v5g",
+      "name": "box.2",
+      "kind": "box",
+      "materialId": "wood",
+      "bevel": 0.065,
+      "segments": 24,
+      "width": 0.8,
+      "height": 0.8,
+      "depth": 0.8,
+      "radiusBottom": 0.4,
+      "radiusTop": 0.4,
+      "radius": 0.4,
+      "tube": 0.12,
+      "role": "solid",
+      "faceOps": [],
+      "transform": {
+        "x": -0.41489523166282544,
+        "y": 0.4,
+        "z": 0,
+        "rx": 0,
+        "ry": 0,
+        "rz": 0,
+        "sx": 0.13316182227872858,
+        "sy": 1,
+        "sz": 1
+      },
+      "visible": true
+    },
+    {
+      "id": "mvykdopz-rvtg8",
+      "name": "box.4",
+      "kind": "box",
+      "materialId": "wood",
+      "bevel": 0.03,
+      "segments": 24,
+      "width": 0.8,
+      "height": 0.8,
+      "depth": 0.8,
+      "radiusBottom": 0.4,
+      "radiusTop": 0.4,
+      "radius": 0.4,
+      "tube": 0.12,
+      "role": "solid",
+      "faceOps": [
+        {
+          "id": "mvykfgj9-2at9i",
+          "triangles": [
+            244,
+            245
+          ],
+          "scale": 1.13,
+          "offset": -0.015
+        },
+        {
+          "id": "mvykmbwh-vdmcy",
+          "triangles": [
+            342,
+            343
+          ],
+          "scale": 0.93,
+          "offset": 0
+        }
+      ],
+      "transform": {
+        "x": 0,
+        "y": 0.6558317871010558,
+        "z": -0.3646075721497365,
+        "rx": 0,
+        "ry": 0,
+        "rz": 0,
+        "sx": 1.0681443264988055,
+        "sy": 0.8059598090426257,
+        "sz": 0.09083207450329925
+      },
+      "visible": true
+    },
+    {
+      "id": "mvykcenv-4abzs",
+      "name": "box.3",
+      "kind": "box",
+      "materialId": "wood",
+      "bevel": 0.03,
+      "segments": 24,
+      "width": 0.8,
+      "height": 0.8,
+      "depth": 0.8,
+      "radiusBottom": 0.4,
+      "radiusTop": 0.4,
+      "radius": 0.4,
+      "tube": 0.12,
+      "role": "solid",
+      "faceOps": [],
+      "transform": {
+        "x": 0,
+        "y": 0.4,
+        "z": 0,
+        "rx": 0,
+        "ry": 0,
+        "rz": 0,
+        "sx": 0.9408230444985665,
+        "sy": 0.09666582657225391,
+        "sz": 0.9273410037425751
+      },
+      "visible": true
+    },
+    {
+      "id": "mvykibb8-81db4",
+      "name": "box.5",
+      "kind": "box",
+      "materialId": "fabric",
+      "bevel": 0.03,
+      "segments": 24,
+      "width": 0.8,
+      "height": 0.8,
+      "depth": 0.8,
+      "radiusBottom": 0.4,
+      "radiusTop": 0.4,
+      "radius": 0.4,
+      "tube": 0.12,
+      "role": "solid",
+      "faceOps": [
+        {
+          "id": "mvyklwbd-ts0rx",
+          "triangles": [
+            244,
+            245
+          ],
+          "scale": 0.94,
+          "offset": 0
+        }
+      ],
+      "transform": {
+        "x": 0,
+        "y": 0.46807831458980165,
+        "z": 0.020046162741131995,
+        "rx": 0,
+        "ry": 0,
+        "rz": 0,
+        "sx": 0.8943342861715751,
+        "sy": 0.09666582657225391,
+        "sz": 0.8696518179954985
+      },
+      "visible": true
+    },
+    {
+      "id": "mvykk6en-ttbhw",
+      "name": "box.6",
+      "kind": "box",
+      "materialId": "fabric",
+      "bevel": 0.03,
+      "segments": 24,
+      "width": 0.8,
+      "height": 0.8,
+      "depth": 0.8,
+      "radiusBottom": 0.4,
+      "radiusTop": 0.4,
+      "radius": 0.4,
+      "tube": 0.12,
+      "role": "solid",
+      "faceOps": [
+        {
+          "id": "mvykm1i1-722sj",
+          "triangles": [
+            342,
+            343
+          ],
+          "scale": 0.91,
+          "offset": 0
+        }
+      ],
+      "transform": {
+        "x": 0,
+        "y": 0.7282921303019281,
+        "z": -0.26446637437830206,
+        "rx": -1.6751060084935292,
+        "ry": 0,
+        "rz": 0,
+        "sx": 0.8943342861715751,
+        "sy": 0.09666582657225391,
+        "sz": 0.6123135407429692
+      },
+      "visible": true
+    }
+  ],
+  "materials": [
+    {
+      "id": "wood",
+      "name": "wood",
+      "color": "#8a5a35",
+      "metalness": 0.05,
+      "roughness": 0.7,
+      "opacity": 1,
+      "map": null,
+      "repeatX": 1,
+      "repeatY": 1
+    },
+    {
+      "id": "fabric",
+      "name": "fabric",
+      "color": "#c9c2b4",
+      "metalness": 0,
+      "roughness": 0.9,
+      "opacity": 1,
+      "map": null,
+      "repeatX": 1,
+      "repeatY": 1
+    }
+  ]
+}

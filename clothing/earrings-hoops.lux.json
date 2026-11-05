@@ -1,0 +1,105 @@
+{
+  "name": "earrings-hoops",
+  "parts": [
+    {
+      "id": "earrings-hoops-hoop--1",
+      "name": "hoop--1",
+      "tags": [],
+      "kind": "torus",
+      "materialId": "metal",
+      "bevel": 0,
+      "cornerRadius": 0,
+      "cornerAxis": "y",
+      "segments": 8,
+      "width": 0.8,
+      "height": 0.8,
+      "depth": 0.8,
+      "radiusBottom": 0.4,
+      "radiusTop": 0.4,
+      "radius": 0.035,
+      "tube": 0.008,
+      "span": 3.141592653589793,
+      "puff": 0.6,
+      "role": "solid",
+      "faceOps": [],
+      "transform": {
+        "x": -0.19,
+        "y": 0,
+        "z": 0,
+        "rx": 0,
+        "ry": 1.570796,
+        "rz": 0,
+        "sx": 1,
+        "sy": 1,
+        "sz": 1
+      },
+      "visible": true,
+      "colour": null,
+      "glow": 0,
+      "states": []
+    },
+    {
+      "id": "earrings-hoops-hoop-1",
+      "name": "hoop-1",
+      "tags": [],
+      "kind": "torus",
+      "materialId": "metal",
+      "bevel": 0,
+      "cornerRadius": 0,
+      "cornerAxis": "y",
+      "segments": 8,
+      "width": 0.8,
+      "height": 0.8,
+      "depth": 0.8,
+      "radiusBottom": 0.4,
+      "radiusTop": 0.4,
+      "radius": 0.035,
+      "tube": 0.008,
+      "span": 3.141592653589793,
+      "puff": 0.6,
+      "role": "solid",
+      "faceOps": [],
+      "transform": {
+        "x": 0.19,
+        "y": 0,
+        "z": 0,
+        "rx": 0,
+        "ry": 1.570796,
+        "rz": 0,
+        "sx": 1,
+        "sy": 1,
+        "sz": 1
+      },
+      "visible": true,
+      "colour": null,
+      "glow": 0,
+      "states": []
+    }
+  ],
+  "groups": [],
+  "figure": {
+    "slot": "earrings",
+    "style": "hoops",
+    "bind": "bone",
+    "bone": "Head",
+    "at": [
+      0,
+      1.82,
+      0.02
+    ]
+  },
+  "materials": [
+    {
+      "id": "metal",
+      "name": "metal",
+      "color": "#ffffff",
+      "metalness": 0.65,
+      "roughness": 0.3,
+      "opacity": 1,
+      "map": null,
+      "texture": null,
+      "repeatX": 1,
+      "repeatY": 1
+    }
+  ]
+}

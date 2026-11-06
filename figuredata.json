@@ -1,40 +1,36 @@
 {
-  "version": 1,
+  "version": 2,
   "groups": [
-    {
-      "id": "body",
-      "label": "Body",
-      "slots": [
+    [
+      "body",
+      [
         "skin",
         "head",
         "build",
         "frame",
         "height"
       ]
-    },
-    {
-      "id": "torso",
-      "label": "Torso",
-      "slots": [
+    ],
+    [
+      "torso",
+      [
         "shirt",
         "jacket",
         "back",
         "necklace"
       ]
-    },
-    {
-      "id": "pants",
-      "label": "Pants",
-      "slots": [
+    ],
+    [
+      "pants",
+      [
         "pants",
         "belt",
         "shoes"
       ]
-    },
-    {
-      "id": "head",
-      "label": "Head",
-      "slots": [
+    ],
+    [
+      "head",
+      [
         "hair",
         "accessories",
         "hat",
@@ -42,968 +38,392 @@
         "earrings",
         "eyes"
       ]
-    }
+    ]
   ],
   "palettes": {
     "skin": [
-      {
-        "id": "porcelain",
-        "label": "Porcelain",
-        "color": "#f6dcc8"
-      },
-      {
-        "id": "peach",
-        "label": "Peach",
-        "color": "#f2c6a5"
-      },
-      {
-        "id": "sand",
-        "label": "Sand",
-        "color": "#e3b08a"
-      },
-      {
-        "id": "olive",
-        "label": "Olive",
-        "color": "#c89268"
-      },
-      {
-        "id": "bronze",
-        "label": "Bronze",
-        "color": "#a86f45"
-      },
-      {
-        "id": "umber",
-        "label": "Umber",
-        "color": "#7d4a2b"
-      },
-      {
-        "id": "cocoa",
-        "label": "Cocoa",
-        "color": "#5a3320"
-      },
-      {
-        "id": "ash",
-        "label": "Ash",
-        "color": "#b9c2b4"
-      }
+      "#f6dcc8",
+      "#f2c6a5",
+      "#e3b08a",
+      "#c89268",
+      "#a86f45",
+      "#7d4a2b",
+      "#5a3320",
+      "#b9c2b4"
     ],
     "figure": [
-      {
-        "id": "shape",
-        "label": "Shape",
-        "color": "#e3b08a"
-      }
+      "#e3b08a"
     ],
     "face": [
-      {
-        "id": "ink",
-        "label": "Ink",
-        "color": "#232027"
-      },
-      {
-        "id": "brown",
-        "label": "Brown",
-        "color": "#5b3a25"
-      },
-      {
-        "id": "green",
-        "label": "Green",
-        "color": "#3f7d5a"
-      },
-      {
-        "id": "blue",
-        "label": "Blue",
-        "color": "#3f7fd0"
-      },
-      {
-        "id": "plum",
-        "label": "Plum",
-        "color": "#6e3f6b"
-      }
+      "#232027",
+      "#5b3a25",
+      "#3f7d5a",
+      "#3f7fd0",
+      "#6e3f6b"
     ],
     "facial": [
-      {
-        "id": "black",
-        "label": "Black",
-        "color": "#2b2b33"
-      },
-      {
-        "id": "brown",
-        "label": "Brown",
-        "color": "#6b4527"
-      },
-      {
-        "id": "white",
-        "label": "White",
-        "color": "#f1f0ec"
-      },
-      {
-        "id": "mint",
-        "label": "Mint",
-        "color": "#9fd8d0"
-      },
-      {
-        "id": "red",
-        "label": "Red",
-        "color": "#d9534f"
-      }
+      "#2b2b33",
+      "#6b4527",
+      "#f1f0ec",
+      "#9fd8d0",
+      "#d9534f"
     ],
     "hair": [
-      {
-        "id": "black",
-        "label": "Black",
-        "color": "#181a1f"
-      },
-      {
-        "id": "brown",
-        "label": "Brown",
-        "color": "#5b3a25"
-      },
-      {
-        "id": "ginger",
-        "label": "Ginger",
-        "color": "#b95f2b"
-      },
-      {
-        "id": "blonde",
-        "label": "Blonde",
-        "color": "#e6c67a"
-      },
-      {
-        "id": "platinum",
-        "label": "Platinum",
-        "color": "#e9e3d5"
-      },
-      {
-        "id": "blue",
-        "label": "Blue",
-        "color": "#3f7fd0"
-      },
-      {
-        "id": "pink",
-        "label": "Pink",
-        "color": "#d86fa4"
-      },
-      {
-        "id": "mint",
-        "label": "Mint",
-        "color": "#66c6a8"
-      }
+      "#181a1f",
+      "#5b3a25",
+      "#b95f2b",
+      "#e6c67a",
+      "#e9e3d5",
+      "#3f7fd0",
+      "#d86fa4",
+      "#66c6a8"
     ],
     "shirt": [
-      {
-        "id": "white",
-        "label": "White",
-        "color": "#f4f1ea"
-      },
-      {
-        "id": "charcoal",
-        "label": "Charcoal",
-        "color": "#33363f"
-      },
-      {
-        "id": "sky",
-        "label": "Sky",
-        "color": "#8fc6e8"
-      },
-      {
-        "id": "ocean",
-        "label": "Ocean",
-        "color": "#2f6ea8"
-      },
-      {
-        "id": "mint",
-        "label": "Mint",
-        "color": "#6cc9a5"
-      },
-      {
-        "id": "lime",
-        "label": "Lime",
-        "color": "#a9d15c"
-      },
-      {
-        "id": "amber",
-        "label": "Amber",
-        "color": "#e0a13d"
-      },
-      {
-        "id": "rust",
-        "label": "Rust",
-        "color": "#b4532f"
-      },
-      {
-        "id": "plum",
-        "label": "Plum",
-        "color": "#7b3f70"
-      },
-      {
-        "id": "rose",
-        "label": "Rose",
-        "color": "#d97a92"
-      }
+      "#f4f1ea",
+      "#33363f",
+      "#8fc6e8",
+      "#2f6ea8",
+      "#6cc9a5",
+      "#a9d15c",
+      "#e0a13d",
+      "#b4532f",
+      "#7b3f70",
+      "#d97a92"
     ],
     "jacket": [
-      {
-        "id": "charcoal",
-        "label": "Charcoal",
-        "color": "#33363f"
-      },
-      {
-        "id": "black",
-        "label": "Black",
-        "color": "#20222a"
-      },
-      {
-        "id": "navy",
-        "label": "Navy",
-        "color": "#26304c"
-      },
-      {
-        "id": "rust",
-        "label": "Rust",
-        "color": "#8f4227"
-      },
-      {
-        "id": "olive",
-        "label": "Olive",
-        "color": "#4f5636"
-      },
-      {
-        "id": "cream",
-        "label": "Cream",
-        "color": "#e6ded0"
-      }
+      "#33363f",
+      "#20222a",
+      "#26304c",
+      "#8f4227",
+      "#4f5636",
+      "#e6ded0"
     ],
     "back": [
-      {
-        "id": "white",
-        "label": "White",
-        "color": "#f6f2ff"
-      },
-      {
-        "id": "black",
-        "label": "Black",
-        "color": "#2b2b33"
-      },
-      {
-        "id": "brown",
-        "label": "Brown",
-        "color": "#8a5a33"
-      },
-      {
-        "id": "steel",
-        "label": "Steel",
-        "color": "#9aa4b0"
-      },
-      {
-        "id": "green",
-        "label": "Green",
-        "color": "#5f9e57"
-      },
-      {
-        "id": "violet",
-        "label": "Violet",
-        "color": "#a86fe0"
-      },
-      {
-        "id": "gold",
-        "label": "Gold",
-        "color": "#f0d08a"
-      }
+      "#f6f2ff",
+      "#2b2b33",
+      "#8a5a33",
+      "#9aa4b0",
+      "#5f9e57",
+      "#a86fe0",
+      "#f0d08a"
     ],
     "pants": [
-      {
-        "id": "denim",
-        "label": "Denim",
-        "color": "#3b5a86"
-      },
-      {
-        "id": "navy",
-        "label": "Navy",
-        "color": "#232c45"
-      },
-      {
-        "id": "olive",
-        "label": "Olive",
-        "color": "#5d6338"
-      },
-      {
-        "id": "sand",
-        "label": "Sand",
-        "color": "#b79a6f"
-      },
-      {
-        "id": "black",
-        "label": "Black",
-        "color": "#23232a"
-      },
-      {
-        "id": "stone",
-        "label": "Stone",
-        "color": "#8a8c92"
-      },
-      {
-        "id": "burgundy",
-        "label": "Burgundy",
-        "color": "#6e2b33"
-      },
-      {
-        "id": "teal",
-        "label": "Teal",
-        "color": "#2c6b68"
-      }
+      "#3b5a86",
+      "#232c45",
+      "#5d6338",
+      "#b79a6f",
+      "#23232a",
+      "#8a8c92",
+      "#6e2b33",
+      "#2c6b68"
     ],
     "belt": [
-      {
-        "id": "black",
-        "label": "Black",
-        "color": "#23232a"
-      },
-      {
-        "id": "brown",
-        "label": "Brown",
-        "color": "#6b4527"
-      },
-      {
-        "id": "tan",
-        "label": "Tan",
-        "color": "#a8763f"
-      },
-      {
-        "id": "gold",
-        "label": "Gold",
-        "color": "#d9b25a"
-      },
-      {
-        "id": "silver",
-        "label": "Silver",
-        "color": "#cdd3da"
-      }
+      "#23232a",
+      "#6b4527",
+      "#a8763f",
+      "#d9b25a",
+      "#cdd3da"
     ],
     "shoes": [
-      {
-        "id": "white",
-        "label": "White",
-        "color": "#f1f0ec"
-      },
-      {
-        "id": "black",
-        "label": "Black",
-        "color": "#2d2a2e"
-      },
-      {
-        "id": "tan",
-        "label": "Tan",
-        "color": "#a8763f"
-      },
-      {
-        "id": "navy",
-        "label": "Navy",
-        "color": "#2b3550"
-      },
-      {
-        "id": "red",
-        "label": "Red",
-        "color": "#b3403a"
-      },
-      {
-        "id": "mint",
-        "label": "Mint",
-        "color": "#7ef0c8"
-      }
+      "#f1f0ec",
+      "#2d2a2e",
+      "#a8763f",
+      "#2b3550",
+      "#b3403a",
+      "#7ef0c8"
     ],
     "hat": [
-      {
-        "id": "gold",
-        "label": "Gold",
-        "color": "#e8c45a"
-      },
-      {
-        "id": "red",
-        "label": "Red",
-        "color": "#d9534f"
-      },
-      {
-        "id": "black",
-        "label": "Black",
-        "color": "#1d1b22"
-      },
-      {
-        "id": "teal",
-        "label": "Teal",
-        "color": "#3a8f8a"
-      },
-      {
-        "id": "cream",
-        "label": "Cream",
-        "color": "#ffe9a8"
-      },
-      {
-        "id": "plum",
-        "label": "Plum",
-        "color": "#6e3f6b"
-      }
+      "#e8c45a",
+      "#d9534f",
+      "#1d1b22",
+      "#3a8f8a",
+      "#ffe9a8",
+      "#6e3f6b"
     ],
     "glasses": [
-      {
-        "id": "black",
-        "label": "Black",
-        "color": "#15161c"
-      },
-      {
-        "id": "graphite",
-        "label": "Graphite",
-        "color": "#2b2b33"
-      },
-      {
-        "id": "gold",
-        "label": "Gold",
-        "color": "#d9b25a"
-      },
-      {
-        "id": "cyan",
-        "label": "Cyan",
-        "color": "#5fd8e6"
-      }
+      "#15161c",
+      "#2b2b33",
+      "#d9b25a",
+      "#5fd8e6"
     ],
     "necklace": [
-      {
-        "id": "gold",
-        "label": "Gold",
-        "color": "#e0b64c"
-      },
-      {
-        "id": "silver",
-        "label": "Silver",
-        "color": "#cdd3da"
-      },
-      {
-        "id": "cyan",
-        "label": "Cyan",
-        "color": "#63b8e8"
-      },
-      {
-        "id": "plum",
-        "label": "Plum",
-        "color": "#5b3352"
-      },
-      {
-        "id": "pearl",
-        "label": "Pearl",
-        "color": "#f3ece1"
-      }
+      "#e0b64c",
+      "#cdd3da",
+      "#63b8e8",
+      "#5b3352",
+      "#f3ece1"
     ],
     "earrings": [
-      {
-        "id": "gold",
-        "label": "Gold",
-        "color": "#e6c15a"
-      },
-      {
-        "id": "silver",
-        "label": "Silver",
-        "color": "#cdd3da"
-      },
-      {
-        "id": "pink",
-        "label": "Pink",
-        "color": "#e07cc0"
-      }
+      "#e6c15a",
+      "#cdd3da",
+      "#e07cc0"
     ]
   },
-  "slots": [
-    {
-      "id": "skin",
-      "label": "Skin",
+  "slots": {
+    "skin": {
+      "frame": "head",
       "palette": "skin",
-      "frame": "head",
-      "default": "tone:peach",
+      "default": "tone:1",
       "styles": [
-        {
-          "id": "tone",
-          "label": "Tone"
-        }
+        "tone"
       ]
     },
-    {
-      "id": "head",
-      "label": "Head shape",
-      "palette": "figure",
+    "head": {
       "frame": "head",
+      "palette": "figure",
       "deform": "head",
-      "default": "default:shape",
+      "default": "default:0",
       "styles": [
-        {
-          "id": "default",
-          "label": "Default",
-          "shape": {}
+        "default",
+        "round",
+        "square",
+        "long"
+      ],
+      "shape": {
+        "round": {
+          "cheeks": 0.2,
+          "jaw": 0.1,
+          "rise": 0.96
         },
-        {
-          "id": "round",
-          "label": "Round",
-          "shape": {
-            "cheeks": 0.2,
-            "jaw": 0.1,
-            "rise": 0.96
-          }
+        "square": {
+          "cheeks": 0.03,
+          "jaw": 0.18,
+          "chin": 0.022
         },
-        {
-          "id": "square",
-          "label": "Square",
-          "shape": {
-            "cheeks": 0.03,
-            "jaw": 0.18,
-            "chin": 0.022
-          }
-        },
-        {
-          "id": "long",
-          "label": "Long",
-          "shape": {
-            "cheeks": -0.06,
-            "jaw": -0.05,
-            "chin": 0.012,
-            "rise": 1.06
-          }
+        "long": {
+          "cheeks": -0.06,
+          "jaw": -0.05,
+          "chin": 0.012,
+          "rise": 1.06
         }
-      ]
+      }
     },
-    {
-      "id": "build",
-      "label": "Build",
-      "palette": "figure",
+    "build": {
       "frame": "full",
+      "palette": "figure",
       "deform": "build",
-      "default": "average:shape",
+      "default": "average:0",
       "styles": [
-        {
-          "id": "slim",
-          "label": "Slim",
-          "shape": {
-            "belly": -0.08,
-            "shoulders": -0.03,
-            "hips": -0.04
-          }
+        "slim",
+        "average",
+        "chubby",
+        "broad"
+      ],
+      "shape": {
+        "slim": {
+          "belly": -0.08,
+          "shoulders": -0.03,
+          "hips": -0.04
         },
-        {
-          "id": "average",
-          "label": "Average",
-          "shape": {}
+        "chubby": {
+          "belly": 0.3,
+          "shoulders": 0.04,
+          "hips": 0.1
         },
-        {
-          "id": "chubby",
-          "label": "Chubby",
-          "shape": {
-            "belly": 0.3,
-            "shoulders": 0.04,
-            "hips": 0.1
-          }
-        },
-        {
-          "id": "broad",
-          "label": "Broad",
-          "shape": {
-            "shoulders": 0.14,
-            "belly": 0.04,
-            "hips": 0.03
-          }
+        "broad": {
+          "shoulders": 0.14,
+          "belly": 0.04,
+          "hips": 0.03
         }
-      ]
+      }
     },
-    {
-      "id": "frame",
-      "label": "Frame",
+    "frame": {
+      "frame": "full",
       "palette": "figure",
-      "frame": "full",
       "deform": "frame",
-      "default": "masc:shape",
+      "default": "masc:0",
       "styles": [
-        {
-          "id": "masc",
-          "label": "Masc",
-          "shape": {}
-        },
-        {
-          "id": "femme",
-          "label": "Femme",
-          "shape": {
-            "chest": 0.105,
-            "waist": -0.09
-          }
+        "masc",
+        "femme"
+      ],
+      "shape": {
+        "femme": {
+          "chest": 0.105,
+          "waist": -0.09
         }
-      ]
+      }
     },
-    {
-      "id": "height",
-      "label": "Height",
-      "type": "number",
+    "height": {
       "frame": "full",
+      "type": "number",
       "min": 90,
       "max": 110,
       "step": 2,
-      "default": "100"
+      "default": "100",
+      "styles": []
     },
-    {
-      "id": "eyes",
-      "label": "Eyes",
-      "palette": "face",
+    "eyes": {
       "frame": "head",
-      "default": "round:brown",
+      "palette": "face",
+      "default": "round:1",
       "styles": [
-        {
-          "id": "round",
-          "label": "Round"
-        },
-        {
-          "id": "dots",
-          "label": "Dots"
-        },
-        {
-          "id": "wink",
-          "label": "Wink"
-        },
-        {
-          "id": "none",
-          "label": "None"
-        }
+        "round"
       ]
     },
-    {
-      "id": "mouth",
-      "label": "Mouth",
-      "palette": "face",
+    "mouth": {
       "frame": "head",
-      "default": "line:ink",
+      "palette": "face",
+      "default": "line:0",
       "styles": [
-        {
-          "id": "line",
-          "label": "Line"
-        }
+        "line"
       ]
     },
-    {
-      "id": "hair",
-      "label": "Hair",
+    "hair": {
+      "frame": "head",
       "palette": "hair",
-      "frame": "head",
-      "default": "short:brown",
+      "default": "short:1",
       "styles": [
-        {
-          "id": "short",
-          "label": "Short"
-        },
-        {
-          "id": "quiff",
-          "label": "Quiff"
-        },
-        {
-          "id": "long",
-          "label": "Long"
-        },
-        {
-          "id": "fall",
-          "label": "Fall"
-        },
-        {
-          "id": "scene",
-          "label": "Scene"
-        },
-        {
-          "id": "slick",
-          "label": "Slick back"
-        },
-        {
-          "id": "pony",
-          "label": "Ponytail"
-        },
-        {
-          "id": "afro",
-          "label": "Afro"
-        },
-        {
-          "id": "bob",
-          "label": "Bob"
-        },
-        {
-          "id": "bun",
-          "label": "Bun"
-        },
-        {
-          "id": "spikes",
-          "label": "Spikes"
-        },
-        {
-          "id": "braid",
-          "label": "Braid"
-        },
-        {
-          "id": "shag",
-          "label": "Shag"
-        },
-        {
-          "id": "sweep",
-          "label": "Sweep"
-        },
-        {
-          "id": "none",
-          "label": "None"
-        }
+        "short",
+        "quiff",
+        "long",
+        "scene",
+        "slick",
+        "pony",
+        "afro",
+        "bob",
+        "bun",
+        "spikes",
+        "braid",
+        "shag",
+        "sweep",
+        "none"
       ]
     },
-    {
-      "id": "accessories",
-      "label": "Accessories",
+    "accessories": {
+      "frame": "head",
       "palette": "facial",
-      "frame": "head",
       "default": "none",
       "styles": [
-        {
-          "id": "none",
-          "label": "None"
-        },
-        {
-          "id": "mustache",
-          "label": "Mustache"
-        },
-        {
-          "id": "clown",
-          "label": "Clown"
-        },
-        {
-          "id": "mask",
-          "label": "Mask"
-        }
+        "none",
+        "mustache",
+        "clown",
+        "mask"
       ]
     },
-    {
-      "id": "hat",
-      "label": "Hats",
+    "hat": {
+      "frame": "head",
       "palette": "hat",
-      "frame": "head",
       "default": "none",
       "styles": [
-        {
-          "id": "none",
-          "label": "None"
-        },
-        {
-          "id": "cap",
-          "label": "Cap"
-        },
-        {
-          "id": "beanie",
-          "label": "Beanie"
-        },
-        {
-          "id": "tophat",
-          "label": "Top hat"
-        },
-        {
-          "id": "crown",
-          "label": "Crown"
-        },
-        {
-          "id": "halo",
-          "label": "Halo"
-        }
+        "none",
+        "cap",
+        "beanie",
+        "tophat",
+        "crown",
+        "halo"
+      ],
+      "open": [
+        "crown",
+        "halo"
+      ],
+      "sell": [
+        "crown",
+        "halo"
+      ],
+      "club": [
+        "halo"
       ]
     },
-    {
-      "id": "glasses",
-      "label": "Glasses",
+    "glasses": {
+      "frame": "head",
       "palette": "glasses",
-      "frame": "head",
       "default": "none",
       "styles": [
-        {
-          "id": "none",
-          "label": "None"
-        },
-        {
-          "id": "round",
-          "label": "Round"
-        },
-        {
-          "id": "shades",
-          "label": "Shades"
-        },
-        {
-          "id": "visor",
-          "label": "Visor"
-        },
-        {
-          "id": "monocle",
-          "label": "Monocle"
-        }
+        "none",
+        "round",
+        "shades",
+        "visor",
+        "monocle"
       ]
     },
-    {
-      "id": "earrings",
-      "label": "Earrings",
+    "earrings": {
+      "frame": "head",
       "palette": "earrings",
-      "frame": "head",
       "default": "none",
       "styles": [
-        {
-          "id": "none",
-          "label": "None"
-        },
-        {
-          "id": "studs",
-          "label": "Studs"
-        },
-        {
-          "id": "hoops",
-          "label": "Hoops"
-        },
-        {
-          "id": "gems",
-          "label": "Gems"
-        }
+        "none",
+        "studs",
+        "hoops",
+        "gems"
       ]
     },
-    {
-      "id": "necklace",
-      "label": "Necklace",
+    "necklace": {
+      "frame": "torso",
       "palette": "necklace",
-      "frame": "torso",
       "default": "none",
       "styles": [
-        {
-          "id": "none",
-          "label": "None"
-        },
-        {
-          "id": "chain",
-          "label": "Chain"
-        },
-        {
-          "id": "pendant",
-          "label": "Pendant"
-        },
-        {
-          "id": "pearls",
-          "label": "Pearls"
-        },
-        {
-          "id": "choker",
-          "label": "Choker"
-        }
+        "none",
+        "chain",
+        "pendant",
+        "pearls",
+        "choker"
       ]
     },
-    {
-      "id": "shirt",
-      "label": "Shirt",
+    "shirt": {
+      "frame": "torso",
       "palette": "shirt",
-      "frame": "torso",
-      "default": "tee:ocean",
+      "default": "tee:3",
       "styles": [
-        {
-          "id": "tee",
-          "label": "Short sleeve"
-        }
+        "tee",
+        "long"
       ]
     },
-    {
-      "id": "jacket",
-      "label": "Jacket",
+    "jacket": {
+      "frame": "torso",
       "palette": "jacket",
-      "frame": "torso",
       "default": "none",
       "styles": [
-        {
-          "id": "none",
-          "label": "None"
-        },
-        {
-          "id": "hoodie",
-          "label": "Hoodie"
-        }
+        "none",
+        "hoodie"
       ]
     },
-    {
-      "id": "back",
-      "label": "Back",
+    "back": {
+      "frame": "torso",
       "palette": "back",
-      "frame": "torso",
       "default": "none",
       "styles": [
-        {
-          "id": "none",
-          "label": "None"
-        },
-        {
-          "id": "satchel",
-          "label": "Satchel"
-        },
-        {
-          "id": "jetpack",
-          "label": "Jetpack"
-        },
-        {
-          "id": "shell",
-          "label": "Shell"
-        },
-        {
-          "id": "angel",
-          "label": "Angel wings"
-        },
-        {
-          "id": "bat",
-          "label": "Bat wings"
-        },
-        {
-          "id": "butterfly",
-          "label": "Butterfly wings"
-        }
+        "none",
+        "satchel",
+        "jetpack",
+        "shell",
+        "angel",
+        "bat",
+        "butterfly"
+      ],
+      "sell": [
+        "satchel",
+        "jetpack",
+        "angel",
+        "bat",
+        "butterfly"
       ]
     },
-    {
-      "id": "pants",
-      "label": "Pants",
+    "pants": {
+      "frame": "legs",
       "palette": "pants",
-      "frame": "full",
-      "default": "skinny-jeans:denim",
+      "default": "skinny-jeans:0",
       "styles": [
-        {
-          "id": "skinny-jeans",
-          "label": "Skinny jeans"
-        }
+        "skinny-jeans"
       ]
     },
-    {
-      "id": "belt",
-      "label": "Belt",
+    "belt": {
+      "frame": "torso",
       "palette": "belt",
-      "frame": "full",
       "default": "none",
       "styles": [
-        {
-          "id": "none",
-          "label": "None"
-        },
-        {
-          "id": "buckle",
-          "label": "Belt"
-        },
-        {
-          "id": "sash",
-          "label": "Sash"
-        }
+        "none",
+        "buckle",
+        "sash"
       ]
     },
-    {
-      "id": "shoes",
-      "label": "Shoes",
+    "shoes": {
+      "frame": "feet",
       "palette": "shoes",
-      "frame": "full",
       "default": "none",
       "styles": [
-        {
-          "id": "none",
-          "label": "None"
-        }
+        "none",
+        "slides"
       ]
     }
-  ]
+  }
 }

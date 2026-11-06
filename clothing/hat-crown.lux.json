@@ -10,12 +10,12 @@
       "bevel": 0,
       "cornerRadius": 0,
       "cornerAxis": "y",
-      "segments": 20,
+      "segments": 16,
       "width": 0.8,
       "height": 0.0936,
       "depth": 0.8,
-      "radiusBottom": 0.2444,
-      "radiusTop": 0.234,
+      "radiusBottom": 0.25,
+      "radiusTop": 0.25,
       "radius": 0.4,
       "tube": 0.12,
       "span": 3.141592653589793,
@@ -24,7 +24,7 @@
       "faceOps": [],
       "transform": {
         "x": 0,
-        "y": 0.052,
+        "y": 0.06159340974238021,
         "z": 0,
         "rx": 0,
         "ry": 0,
@@ -36,7 +36,48 @@
       "visible": true,
       "colour": null,
       "glow": 0,
-      "states": []
+      "states": [],
+      "brushes": [],
+      "strands": []
+    },
+    {
+      "id": "mw3oeenk-nb6hy",
+      "name": "band.2",
+      "tags": [],
+      "kind": "cylinder",
+      "materialId": "gold",
+      "bevel": 0,
+      "cornerRadius": 0,
+      "cornerAxis": "y",
+      "segments": 16,
+      "width": 0.8,
+      "height": 0.0936,
+      "depth": 0.8,
+      "radiusBottom": 0.25,
+      "radiusTop": 0.25,
+      "radius": 0.4,
+      "tube": 0.12,
+      "span": 3.141592653589793,
+      "puff": 0.6,
+      "role": "cut",
+      "faceOps": [],
+      "transform": {
+        "x": 0,
+        "y": 0.06159340974238021,
+        "z": 0,
+        "rx": 0,
+        "ry": 0,
+        "rz": 0,
+        "sx": 0.7752779910997732,
+        "sy": 2.147095662478123,
+        "sz": 0.7752779910997732
+      },
+      "visible": true,
+      "colour": null,
+      "glow": 0,
+      "states": [],
+      "brushes": [],
+      "strands": []
     },
     {
       "id": "hat-crown-spike-0",
@@ -73,7 +114,9 @@
       "visible": true,
       "colour": null,
       "glow": 0,
-      "states": []
+      "states": [],
+      "brushes": [],
+      "strands": []
     },
     {
       "id": "hat-crown-spike-1",
@@ -110,7 +153,9 @@
       "visible": true,
       "colour": null,
       "glow": 0,
-      "states": []
+      "states": [],
+      "brushes": [],
+      "strands": []
     },
     {
       "id": "hat-crown-spike-2",
@@ -147,7 +192,9 @@
       "visible": true,
       "colour": null,
       "glow": 0,
-      "states": []
+      "states": [],
+      "brushes": [],
+      "strands": []
     },
     {
       "id": "hat-crown-spike-3",
@@ -184,7 +231,9 @@
       "visible": true,
       "colour": null,
       "glow": 0,
-      "states": []
+      "states": [],
+      "brushes": [],
+      "strands": []
     },
     {
       "id": "hat-crown-spike-4",
@@ -221,21 +270,38 @@
       "visible": true,
       "colour": null,
       "glow": 0,
+      "states": [],
+      "brushes": [],
+      "strands": []
+    }
+  ],
+  "groups": [
+    {
+      "id": "mw3oeu8b-2ecpd",
+      "name": "group",
+      "partIds": [
+        "hat-crown-band",
+        "mw3oeenk-nb6hy",
+        "hat-crown-spike-0",
+        "hat-crown-spike-1",
+        "hat-crown-spike-2",
+        "hat-crown-spike-3",
+        "hat-crown-spike-4"
+      ],
+      "transform": {
+        "x": 0,
+        "y": 0.04786719364391967,
+        "z": -0.02638231448501943,
+        "rx": -0.22412085253951636,
+        "ry": 0,
+        "rz": 0,
+        "sx": 1,
+        "sy": 1,
+        "sz": 1
+      },
       "states": []
     }
   ],
-  "groups": [],
-  "figure": {
-    "slot": "hat",
-    "style": "crown",
-    "bind": "bone",
-    "bone": "Head",
-    "at": [
-      0,
-      2.03,
-      0.01
-    ]
-  },
   "materials": [
     {
       "id": "gold",
@@ -249,5 +315,16 @@
       "repeatX": 1,
       "repeatY": 1
     }
-  ]
+  ],
+  "figure": {
+    "slot": "hat",
+    "style": "crown",
+    "bind": "bone",
+    "bone": "Head",
+    "at": [
+      0,
+      2.03,
+      0.01
+    ]
+  }
 }

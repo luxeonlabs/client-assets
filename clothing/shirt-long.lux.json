@@ -1,0 +1,71 @@
+{
+  "name": "lamp",
+  "parts": [
+    {
+      "id": "mw2i0pc3-8wymu",
+      "name": "region",
+      "tags": [],
+      "kind": "region",
+      "materialId": "fabric",
+      "bevel": 0,
+      "cornerRadius": 0,
+      "cornerAxis": "y",
+      "segments": 24,
+      "width": 1.57,
+      "height": 0.7999999999999999,
+      "depth": 0.42,
+      "radiusBottom": 0.4,
+      "radiusTop": 0.4,
+      "radius": 0.012,
+      "tube": 0.12,
+      "span": 3.141592653589793,
+      "puff": 0.6,
+      "role": "solid",
+      "faceOps": [],
+      "transform": {
+        "x": 0,
+        "y": -0.5319999999999999,
+        "z": 0,
+        "rx": 0,
+        "ry": 0,
+        "rz": 0,
+        "sx": 1,
+        "sy": 1,
+        "sz": 1
+      },
+      "visible": true,
+      "colour": null,
+      "glow": 0,
+      "states": [],
+      "brushes": [],
+      "strands": [],
+      "drop": 0
+    }
+  ],
+  "groups": [],
+  "materials": [
+    {
+      "id": "fabric",
+      "name": "fabric",
+      "color": "#c9c2b4",
+      "metalness": 0,
+      "roughness": 0.9,
+      "opacity": 1,
+      "map": null,
+      "repeatX": 1,
+      "repeatY": 1,
+      "texture": null
+    }
+  ],
+  "figure": {
+    "slot": "shirt",
+    "style": "tee",
+    "bind": "skin",
+    "bone": "Spine2",
+    "at": [
+      0,
+      1.452,
+      0
+    ]
+  }
+}
